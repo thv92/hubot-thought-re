@@ -4,11 +4,10 @@ A hubot script that retreives random thoughts from subreddits. Based off of [ori
 
 ## Installation
 
-In hubot project repo, add project to:
+In hubot project repo, run:
 
-`yourHubot/node-modules`
+`npm install hubot-thought-re --save`
 
-Remember to remove .git and .gitignore directory afterwards
 
 Then add **hubot-thought-re** to your `external-scripts.json`:
 
