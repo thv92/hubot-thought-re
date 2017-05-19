@@ -46,18 +46,18 @@ Retrieve random thought
 ## Sample Interaction
 
 ```
-user1>> hubot thought
-hubot>> <random thought from 'http://andymatthews.net/thought/' >
+user: hubot thought
+hubot: <random thought from 'http://andymatthews.net/thought/' >
 ```
 
 ```
-user1>> hubot intrusive thought
-hubot>> <random thought from r/IntrusiveThoughts >
+user: hubot intrusive thought
+hubot: <random thought from r/IntrusiveThoughts >
 ```
 
 ```
-user1>> hubot shower thought
-hubot>> <random thought from r/ShowerThoughts >
+user: hubot shower thought
+hubot: <random thought from r/ShowerThoughts >
 ```
 
 
