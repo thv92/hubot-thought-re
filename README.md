@@ -8,7 +8,7 @@ In hubot project repo, add project to:
 
 `yourHubot/node-modules`
 
-Remember to remove .git directory afterwards
+Remember to remove .git and .gitignore directory afterwards
 
 Then add **hubot-thought-re** to your `external-scripts.json`:
 

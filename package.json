@@ -1,7 +1,7 @@
 {
   "name": "hubot-thought-re",
   "description": "A hubot script that retreives random reddit thoughts and from original hubot-thought api",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": {
     "name": "Thien Vo",
     "email": "vohuythien@gmail.com",

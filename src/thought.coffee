@@ -56,12 +56,9 @@ module.exports = (robot) ->
     }
 
     if(type of type_to_link)
-      if(type == 'random')
-        typeOfPosts = ['hot', 'new']
-      else
-        typeOfPosts = ['hot', 'new', 'rising']
-
+      typeOfPosts = ['hot', 'new']
       url = "https://www.reddit.com/r/#{type_to_link[type]}/#{msg.random(typeOfPosts)}.json"
     else
       url = 'http://andymatthews.net/thought/'
+      
     sendThoughtFrom(msg, url)
