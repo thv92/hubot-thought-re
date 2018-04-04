@@ -45,7 +45,7 @@ module.exports = (robot) ->
       catch ex
         msg.send "I can't tell you a thought :'( - #{ex}"
 
-  robot.respond /(.*)thought$/i, (msg) ->
+  robot.respond /(.+)thought$/i, (msg) ->
     type = msg.match[1].trim()
 
     type_to_link = {
@@ -58,7 +58,8 @@ module.exports = (robot) ->
     if(type of type_to_link)
       typeOfPosts = ['hot', 'new']
       url = "https://www.reddit.com/r/#{type_to_link[type]}/#{msg.random(typeOfPosts)}.json"
-    else
-      url = 'http://andymatthews.net/thought/'
+    # else
+    # original api is now gone
+      # url = 'http://andymatthews.net/thought/'
       
     sendThoughtFrom(msg, url)
